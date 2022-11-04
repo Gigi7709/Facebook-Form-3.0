@@ -1,0 +1,111 @@
+body{
+    background-color: #d3d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    background-color: #f0f2f5;
+  }
+  
+  h1{
+    font-family: "Klavika";
+      color:#1877f2;
+      font-size: 3em;
+      text-align: center;
+      margin-top:10%;
+  }
+  
+  fieldset{
+    width: 500px;
+    height: 100%;
+    margin-top: 100px;
+    background-color:#fff;
+    border:none;
+    text-align: center;
+    border-radius: 15px;
+    padding:20px;
+    box-shadow: 0px 0px 40px 00px rgba(75,75,75, 0.3);
+    color: #444;
+  }
+  
+  h1, .h1{
+      text-align: center;
+  }
+
+  p h2{
+      text-align: center;
+      justify-content: center;
+  }
+  
+  .signup{
+      width: 200px;
+      height: 30px;
+      font-size: 18px;
+      display: inline-block;
+      justify-content: center;
+      background-color: green;
+      border: 0px solid green;
+      border-radius: 8px;
+      color:#fff;
+      
+  }
+
+  .signup:hover{
+    background-color:#5ece7e;
+    box-shadow: 0px 0px 20px 00px rgba(75,75,75, 0.2);
+  }
+  
+  .typebox{
+      display: flex;
+      justify-content:center;
+      align-items:center;
+  }
+  
+  input{
+      padding:5px;
+      margin: 10px;
+  }
+  
+  input .typebox1, .typebox2{
+  margin-left: 0;
+  }
+  
+  .typebox3, .typebox4{
+  width: 308px;
+  } 
+  
+  .radio{
+  width: 100px;
+  border:.9px solid #000;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  padding-right: 20px;margin: 5px;
+  }
+
+  .radio:hover{
+    border:2px solid #1877f2;
+  }
+  
+  .select{
+      width: 100px;
+      font-size: 15px;
+      padding: 2px;
+  }
+  
+  a{
+      text-decoration: none;
+  }
+
+  a:hover{
+    text-decoration:underline;
+  }
+  
+  .foot{
+      font-size: 12px
+  }
+  
+  .account{
+      text-align: center;
+  }
+  
